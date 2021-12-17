@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 8</title>
+    <style>
+        
+        header{
+            
+            text-align: center;
+            height: 50px;
+            width: 100vw;
+            background-color: cornflowerblue;
+            /* by using position:fixed you can move your content over the whole web page  */
+            position: fixed;
+            
+            z-index: 1;
+        }
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            position: relative;
+    bottom: 12px;
+        }
+        h2{
+            /* by using position : relative you can fix your content left right top bottom wthout disturbing othher content like in margin other contents are also disturbed */
+            position: relative;
+            top: 15px;
+        }
+        h4{
+            
+        }
+        .parent{
+        
+        position: relative;
+        top: 50px;
+        }
+        a{
+            color: white;
+        }
+        .logo{
+           
+            color: rgb(0, 0, 0);
+            position: relative;
+            top: 10px;
+            left: 10px;
+           text-align: left;
+        }
+        button {
+            
+            background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+        }
+        footer{
+           
+        }
+    </style>
+</head>
+<body >
+    
+    <header>
+        <div class="logo">
+            <button>
+            ONLINE QARI
+        </button>
+        </div>
+        <nav>
+            
+    <a href="">Homes</a><a href="">ABOUT</a><a href="">CONTACT US</a>    </nav>
+    </header>
+    <div class="parent">
+        <h2>DEVOLOPED BY :</h2>
+        <h3>Faker Tatti</h3>
+        <h3>Abubakar PRO Devolper </h3>
+        <h4> Owner: </h4>
+        <p> ASIM THE DON </p>
+    </div>
+<footer>
+    <marquee scrollamount="20" behavior="" direction="">ONLINE QARI</marquee>
+</footer>    
+</body>
+</html>
